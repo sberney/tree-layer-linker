@@ -1,0 +1,8 @@
+{
+  "name": "tree-layer-linker",
+  "version": "1.0.0",
+  "description": "Link binary tree layers",
+  "main": "index.js",
+  "author": "Sam Berney",
+  "license": "MIT"
+}
