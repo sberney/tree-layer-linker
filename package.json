@@ -4,5 +4,16 @@
   "description": "Link binary tree layers",
   "main": "index.js",
   "author": "Sam Berney",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "mocha-esm": "^1.1.1"
+  },
+  "scripts": {
+    "test": "mocha-esm tests/sampleTreeTest.js"
+  }
 }
