@@ -9,14 +9,16 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/plugin-proposal-json-strings": "^7.2.0",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-syntax-import-meta": "^7.2.0",
     "@babel/preset-stage-3": "^7.0.0",
     "@babel/register": "^7.0.0",
-    "ava": "^1.2.0",
-    "chai": "^4.2.0"
+    "babel-jest": "^24.0.0",
+    "chai": "^4.2.0",
+    "jest": "^24.0.0"
   },
   "ava": {
     "require": [
@@ -24,6 +26,6 @@
     ]
   },
   "scripts": {
-    "test": "ava tests/*"
+    "test": "jest tests/*"
   }
 }

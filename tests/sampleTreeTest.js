@@ -1,3 +1,4 @@
+import test from 'ava';
 import { expect } from 'chai';
 
 import { sampleTree } from '../src/sampleTree.js';
@@ -12,7 +13,7 @@ import { createFindAll } from '../src/find.js';
  * G -> H -> I -> J
  */
 
-describe('SampleTree by Level', function () {
+test.group('SampleTree by Level', () => {
 
   /*
    * Test set up
